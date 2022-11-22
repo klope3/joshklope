@@ -3,19 +3,25 @@ nav ul {
     padding: 0;
     margin: 0;
     justify-content: flex-end;
+    gap: 5px;
 }
 
 .navlink-li {
     list-style: none;
-    background-image: linear-gradient(var(--alpha-4), var(--alpha-1));
+    /* background-image: linear-gradient(var(--alpha-4), var(--alpha-1)); */
+    background-color: var(--alpha-3);
+    border-radius: 100px;
+    border: 2px solid transparent;
     width: 145px;
-    height: 60px;
-    text-align: center;
+    height: 45px;
+    /* text-align: center;
     border: 2px solid var(--alpha-5);
     border-right-color: rgb(22, 33, 45);
     border-top: none;
-    border-bottom: none;
+    border-bottom: none; */
     cursor: pointer;
+    position: relative;
+    transition: var(--hover-highlight-speed);
 }
 
 .navlink-li a {
@@ -26,6 +32,25 @@ nav ul {
     align-items: center;
 }
 
+.navlink-li a::before {
+    content: "";
+    background-color: var(--alpha-2);
+    height: 4px;
+    width: 11px;
+    border-radius: 100px;
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    translate: 0 -50%;
+    box-shadow: 0 0 0 4px var(--alpha-2);
+    transition: var(--hover-highlight-speed);
+}
+
 .navlink-li:hover {
-    background-image: linear-gradient(var(--alpha-5), var(--alpha-2));
+    background-color: var(--alpha-4);
+    border-color: var(--accent-bright-hover);
+}
+
+.navlink-li:hover a::before {
+    background-color: var(--accent-bright-hover);
 }

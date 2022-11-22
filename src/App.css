@@ -13,6 +13,7 @@
   --code-editor-bg: rgb(34, 37, 45);
   --code-inline-bg: rgb(81, 86, 99);
   --font-color-base: rgb(190, 190, 190);
+  --font-color-strong: var(--alpha-6);
 
   --code-tab-size: 40px;
 
@@ -22,15 +23,26 @@
   --accent-mid: rgb(46, 125, 204);
   --accent-mid-text: rgb(198, 218, 238);
   --accent-mid-hover: rgb(80, 163, 247);
+
+  --hover-highlight-speed: 0.1s;
 }
 
 * {
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    text-transform: lowercase;
 }
 
 a {
   text-decoration: none;
   color: var(--font-color-base);
+}
+
+strong {
+  color: var(--font-color-strong);
 }
 
 body {
@@ -41,15 +53,27 @@ body {
   margin: auto;
 }
 
+header {
+  position: relative;
+}
+
 .portrait {
   border-radius: 300px;
   width: 200px;
   height: 200px;
   overflow: hidden;
   margin-left: auto;
+  box-shadow: 37px 0 0 -1px var(--alpha-1);
 }
 
 .portrait img {
   width: 115%;
   translate: -14px -30px;
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 50px;
 }

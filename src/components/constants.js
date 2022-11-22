@@ -1,2 +1,2 @@
-const introBriefHeading = "Hi, I'm Josh Klope.";
-const introBrief = "I'm a front end developer with a passion for lots of different creative pursuits. I love making interactive experiences, discovering new technologies, and making my code a little cleaner and prettier than it was before.";
+export const introBriefHeading = "Hi, I'm Josh Klope.";
+export const introBrief = <p>I'm a front end developer with a passion for lots of different creative pursuits. I love making <strong>interactive experiences</strong>, discovering <strong>new technologies</strong>, and making my code a little <strong>cleaner</strong> and <strong>prettier</strong> than it was before.</p>;

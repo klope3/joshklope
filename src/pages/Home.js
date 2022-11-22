@@ -1,8 +1,15 @@
 import React from "react";
+import portrait from "../assets/images/joshklope.jpg";
 
 class Home extends React.Component {
     render() {
-        return <h1>Home</h1>
+        return (
+            <div>
+                <div className="portrait">
+                    <img src={portrait} />
+                </div>
+            </div>
+        )
     }
 }
 

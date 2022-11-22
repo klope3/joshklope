@@ -1,0 +1,2 @@
+const introBriefHeading = "Hi, I'm Josh Klope.";
+const introBrief = "I'm a front end developer with a passion for lots of different creative pursuits. I love making interactive experiences, discovering new technologies, and making my code a little cleaner and prettier than it was before.";

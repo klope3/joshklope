@@ -1,3 +1,55 @@
+:root {
+  --font-size-14: 0.875rem;
+  --font-size-20: 1.25rem;
+  --font-size-28: 1.75rem;
+
+  --alpha-1:rgb(24, 36, 50);
+  --alpha-2:rgb(39, 52, 68);
+  --alpha-3:rgb(54, 71, 94);
+  --alpha-4:rgb(69, 93, 124);
+  --alpha-5:rgb(91, 118, 154);
+  --alpha-6:rgb(126, 156, 196);
+  --alpha-base: var(--alpha-2);
+  --code-editor-bg: rgb(34, 37, 45);
+  --code-inline-bg: rgb(81, 86, 99);
+  --font-color-base: rgb(190, 190, 190);
+
+  --code-tab-size: 40px;
+
+  --accent-bright: rgb(74, 155, 44);
+  --accent-bright-text: rgb(194, 241, 177);
+  --accent-bright-hover: rgb(109, 200, 76);
+  --accent-mid: rgb(46, 125, 204);
+  --accent-mid-text: rgb(198, 218, 238);
+  --accent-mid-hover: rgb(80, 163, 247);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
+  color: var(--font-color-base);
+}
+
+body {
+  background-color: var(--alpha-base);
+  color: var(--font-color-base);
+  margin: 0;
+  width: 1024px;
+  margin: auto;
+}
+
+.portrait {
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.portrait img {
+  width: 115%;
+  translate: -14px -30px;
 }

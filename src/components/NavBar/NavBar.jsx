@@ -8,8 +8,9 @@ class NavBar extends React.Component {
             <nav>
                 <ul>
                     <NavLinkCustom to="/" children={<div>Home</div>} />
-                    <NavLinkCustom to="/page1" children={<div>Page 1</div>} />
-                    <NavLinkCustom to="/page2" children={<div>Page 2</div>} />
+                    <NavLinkCustom to="/about" children={<div>About</div>} />
+                    <NavLinkCustom to="/portfolio" children={<div>Portfolio</div>} />
+                    <NavLinkCustom to="/contact" children={<div>Contact</div>} />
                 </ul>
             </nav>
         )

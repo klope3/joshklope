@@ -1,2 +1,6 @@
 export const introBriefHeading = "Hi, I'm Josh Klope.";
 export const introBrief = <p>I'm a front end developer with a passion for lots of different creative pursuits. I love making <strong>interactive experiences</strong>, discovering <strong>new technologies</strong>, and making my code a little <strong>cleaner</strong> and <strong>prettier</strong> than it was before.</p>;
+
+export const about1 = <p>I started my <strong>journey with tech</strong> as a 90s kid obsessed with video games. Eventually, I started tinkering with my favorite games, and that led me to discover a <strong>passion for programming.</strong></p>
+export const about2 = <p>As a student in the <strong>Devslopes Web Academy</strong>, I've learned to find <strong>joy</strong> in the act of writing code, no matter what kind of project I'm working on. It's so satisfying to solve little pieces of a problem, <strong>one at a time</strong>, and then fit those pieces together to create an <strong>elegant, useful solution.</strong></p>;
+export const about3 = <p>When I'm not pursuing my <strong>passion for development</strong>, I enjoy hanging out with my wife and 3-year-old, taking late-night walks, and playing video games.</p>

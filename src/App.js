@@ -15,6 +15,7 @@ function App() {
         </div>
         <Navbar />
       </header>
+      {/* <div className="bg-hex"></div> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

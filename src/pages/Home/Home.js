@@ -13,7 +13,7 @@ class Home extends React.Component {
                         {introBrief}
                     </div>
                     <div>
-                        <div className="portrait">
+                        <div className="img-circle portrait">
                             <img src={portrait} />
                         </div>
                     </div>

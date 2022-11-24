@@ -49,7 +49,7 @@ body {
   background-color: var(--alpha-base);
   color: var(--font-color-base);
   margin: 0;
-  width: 1024px;
+  max-width: 1024px;
   margin: auto;
 }
 
@@ -57,11 +57,14 @@ header {
   position: relative;
 }
 
+.img-circle {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .portrait {
-  border-radius: 300px;
   width: 200px;
   height: 200px;
-  overflow: hidden;
   margin-left: auto;
   box-shadow: 37px 0 0 -1px var(--alpha-1);
 }
@@ -76,4 +79,19 @@ header {
   top: 0;
   left: 0;
   font-size: 50px;
+}
+
+.text-feature-box {
+  background-color: var(--alpha-4);
+  padding: 50px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.text-feature-box h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
 }

@@ -9,11 +9,13 @@
   --alpha-4:rgb(69, 93, 124);
   --alpha-5:rgb(91, 118, 154);
   --alpha-6:rgb(126, 156, 196);
+  --alpha-7:rgb(184, 214, 254);
   --alpha-base: var(--alpha-2);
   --code-editor-bg: rgb(34, 37, 45);
   --code-inline-bg: rgb(81, 86, 99);
   --font-color-base: rgb(190, 190, 190);
   --font-color-strong: var(--alpha-6);
+  --font-color-link: rgb(0, 157, 255);
 
   --code-tab-size: 40px;
 
@@ -94,4 +96,22 @@ header {
     top: 10px;
     left: 20px;
     margin: 0;
+}
+
+.language-logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.language-logos img {
+    height: 50px;
+}
+
+.hyperlink {
+  color: var(--font-color-link);
+}
+
+.hyperlink:hover {
+  text-decoration: underline;
 }

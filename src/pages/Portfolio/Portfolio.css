@@ -1,0 +1,9 @@
+.portfolio-card-collection {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 680px; */
+    margin: auto;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+}

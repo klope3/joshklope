@@ -103,7 +103,7 @@ export const projects = [
         name: "Debt-Free Calculator",
         technologies: [html, css, react],
         descriptionShort: "A Simple React App",
-        descriptionLong: <p>This project really opened my eyes to the power of React. There were lots of moving parts here, because user input in one place usually influenced multiple other areas in a variety of ways. React took a lot of the headache out of implementing these interactions. I surpassed expectations by creating my own fully functional progress bar to make loan repayment more intuitive. I then wrote an article to help other developers create their own progress bars.</p>,
+        descriptionLong: <p>This project really opened my eyes to the power of React. There were lots of <strong>moving parts</strong> here, because user input in one place usually influenced multiple other areas in a variety of ways. React took a lot of the headache out of implementing these interactions. I <strong>surpassed expectations</strong> by creating my own fully functional progress bar to make loan repayment more intuitive. I then wrote an <a href="https://medium.com/@klope3/how-to-build-a-simple-progress-bar-in-react-9bee5eb9fe0f" target="_blank" rel="noopener noreferrer" className="hyperlink">article</a> to help other developers create their own progress bars.</p>,
         githubLink: "",
         demoLink: "",
         imgPath: debtFreePic,

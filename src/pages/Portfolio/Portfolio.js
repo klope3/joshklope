@@ -3,6 +3,7 @@ import { projects } from "../../components/constants";
 import PortfolioCard from "../../components/PortfolioCard/PortfolioCard";
 import PortfolioModal from "../../components/PortfolioModal/PortfolioModal";
 import "./Portfolio.css";
+import logo from "../../assets/images/logo.svg";
 
 class Portfolio extends React.Component {
     constructor() {

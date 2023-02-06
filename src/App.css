@@ -115,3 +115,11 @@ header {
 .hyperlink:hover {
   text-decoration: underline;
 }
+
+.logo-jk {
+  width: 50px;
+  fill: var(--alpha-5);
+  position: absolute;
+  left: 0;
+  top: 0;
+}

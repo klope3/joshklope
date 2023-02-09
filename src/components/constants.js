@@ -84,7 +84,7 @@ export const projects = [
         project instructions.
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/my-tube",
     demoLink: "",
     imgPath: myTubePic,
     projectType: "devslopes",
@@ -105,7 +105,7 @@ export const projects = [
         in imitating the mockups.
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/responsive-website",
     demoLink: "",
     imgPath: responsiveSitePic,
     projectType: "devslopes",
@@ -127,8 +127,8 @@ export const projects = [
         design.
       </p>
     ),
-    githubLink: "",
-    demoLink: "",
+    githubLink: "https://github.com/klope3/saasWebsite",
+    demoLink: "https://saas-website-omega.vercel.app/",
     imgPath: saasPic,
     projectType: "devslopes",
   },
@@ -145,7 +145,7 @@ export const projects = [
         <strong>eagerly tackled</strong> the bonus tasks.
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/node-calc",
     demoLink: "",
     imgPath: nodeCalcPic,
     projectType: "devslopes",
@@ -166,7 +166,7 @@ export const projects = [
         <strong>useful, interactive solutions.</strong>
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/battleshipConsole",
     demoLink: "",
     imgPath: battleshipPic,
     projectType: "devslopes",
@@ -196,8 +196,8 @@ export const projects = [
         touch to their own sites if they choose.
       </p>
     ),
-    githubLink: "",
-    demoLink: "",
+    githubLink: "https://github.com/klope3/jsWebsiteProject",
+    demoLink: "https://js-website-project.vercel.app/",
     imgPath: jsApiPic,
     projectType: "devslopes",
   },
@@ -225,8 +225,8 @@ export const projects = [
         to help other developers create their own progress bars.
       </p>
     ),
-    githubLink: "",
-    demoLink: "",
+    githubLink: "https://github.com/klope3/debt-free-calc",
+    demoLink: "https://debt-free-calc.vercel.app/",
     imgPath: debtFreePic,
     projectType: "devslopes",
   },
@@ -245,7 +245,7 @@ export const projects = [
         to add that extra bit of functionality to my account screen.
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/code-commerce",
     demoLink: "https://code-commerce-weld.vercel.app/",
     imgPath: codeCommercePic,
     projectType: "devslopes",
@@ -265,7 +265,7 @@ export const projects = [
         <strong>easy customization</strong>.
       </p>
     ),
-    githubLink: "",
+    githubLink: "https://github.com/klope3/commerce-with-api",
     demoLink: "https://commerce-with-api.vercel.app/",
     imgPath: commerceApiPic,
     projectType: "devslopes",

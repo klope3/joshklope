@@ -9,7 +9,6 @@
     left: 50px;
     right: 50px;
     top: 50px;
-    bottom: 50px;
     background-color: var(--alpha-4);
     z-index: 20;
     padding: 20px;
@@ -57,4 +56,14 @@
 
 .description-long {
     margin: 30px auto;
+}
+
+.hyperlink-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hyperlink-flex a {
+    display: block;
 }

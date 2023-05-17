@@ -1,4 +1,11 @@
-import { cssLogo, htmlLogo, jsLogo, nodeLogo, reactLogo } from "./weblogos";
+import {
+  cssLogo,
+  htmlLogo,
+  jsLogo,
+  nodeLogo,
+  reactLogo,
+  reduxLogo,
+} from "./weblogos";
 import myTubePic from "../assets/images/project-mytube.png";
 import debtFreePic from "../assets/images/project-debtfree.png";
 import jsApiPic from "../assets/images/project-jsapi.png";
@@ -8,6 +15,7 @@ import responsiveSitePic from "../assets/images/project-responsive.png";
 import saasPic from "../assets/images/project-saas.png";
 import codeCommercePic from "../assets/images/project-code-commerce.png";
 import commerceApiPic from "../assets/images/project-commerce-api.png";
+import strategyGamePic from "../assets/images/project-strategy-game.png";
 
 export const introBriefHeading = "Hi, I'm Josh Klope.";
 export const introBrief = (
@@ -64,9 +72,13 @@ export const technologies = [
     name: "React",
     logo: reactLogo,
   },
+  {
+    name: "Redux",
+    logo: reduxLogo,
+  },
 ];
 
-const [html, css, js, node, react] = technologies;
+const [html, css, js, node, react, redux] = technologies;
 export const projects = [
   {
     name: "MyTube",
@@ -269,5 +281,26 @@ export const projects = [
     demoLink: "https://commerce-with-api.vercel.app/",
     imgPath: commerceApiPic,
     projectType: "devslopes",
+  },
+  {
+    name: "Turn-Based Strategy Game",
+    technologies: [html, css, react, redux],
+    descriptionShort: "Game Inspired By Hoplite",
+    descriptionLong: (
+      <p>
+        This is my <strong>most ambitious</strong> side project yet. It's a
+        grid-based strategy game inspired by the popular mobile game "Hoplite."
+        I implemented many of that game's features, including turn-based
+        gameplay, automatc saving and loading, and animated graphics,{" "}
+        <strong>from scratch</strong>, without any kind of game engine or game
+        framework. This type of <strong>reverse-engineering</strong> is probably
+        my favorite way of <strong>expanding</strong> and{" "}
+        <strong>enriching</strong> my development skills.
+      </p>
+    ),
+    githubLink: "https://github.com/klope3/react-turn-based-game",
+    demoLink: "https://react-turn-based-game.vercel.app/",
+    imgPath: strategyGamePic,
+    projectType: "personal",
   },
 ];

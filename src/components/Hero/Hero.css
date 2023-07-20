@@ -1,0 +1,42 @@
+.hero {
+  max-width: 650px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-headings {
+  text-align: right;
+  max-width: 320px;
+}
+
+.hero-divider {
+  height: 366px;
+  width: 2px;
+  background-color: var(--beta-1);
+}
+
+.portrait {
+  background-image: url(joshklope.jpg);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  background-position: -298px -357px;
+  background-size: 110%;
+}
+
+.hero p {
+  text-align: center;
+}
+
+.social-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

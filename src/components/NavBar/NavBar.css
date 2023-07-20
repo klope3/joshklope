@@ -1,11 +1,19 @@
 nav {
   background-color: var(--transparent-black);
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav img {
+  display: block;
+  height: 30px;
 }
 
 nav ul {
   display: flex;
   margin: 0;
+  gap: 15px;
 }
 
 nav li {

@@ -1,10 +1,16 @@
 
 :root {
+  --alpha-0: #051c2a;
   --alpha-1: #052639;
+  --alpha-2: #0a3046;
   --beta-1: #77FFAE;
+  --beta-1-transparent: #77ffad81;
   --transparent-black: rgba(0, 0, 0, 0.3);
+  --extra-transparent-black: rgba(0, 0, 0, 0.15);
 
   --border-radius-med: 15px;
+
+  --size-20: 1.25rem;
 }
 
 * {
@@ -42,4 +48,25 @@ section {
   margin: 0;
   margin-top: 130px;
   margin-bottom: 130px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0a2e43;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #092131;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #13374d;
 }

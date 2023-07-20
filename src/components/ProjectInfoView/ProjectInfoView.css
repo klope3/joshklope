@@ -1,0 +1,24 @@
+.project-info-view {
+  flex: 3;
+  padding: 10px;
+}
+
+.project-info-view img {
+  display: block;
+  height: 200px;
+  margin: auto;
+}
+
+.project-info-view h4 {
+  text-align: center;
+}
+
+.project-info-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project-info-links a {
+  display: block;
+}

@@ -1,0 +1,35 @@
+.projects-container {
+  background-color: var(--transparent-black);
+  max-width: 900px;
+  margin: auto;
+  /* overflow: hidden; */
+}
+
+.projects-bar {
+  background-color: var(--transparent-black);
+  padding: 10px;
+}
+
+.projects-container,
+.projects-bar {
+  border-top-left-radius: var(--border-radius-med);
+  border-top-right-radius: var(--border-radius-med);
+}
+
+.projects-bar h3 {
+  margin: 0;
+}
+
+.projects-flex {
+  display: flex;
+}
+
+.projects-scroll,
+.project-info-view {
+  height: 310px;
+  overflow-y: scroll;
+}
+
+.projects-scroll {
+  flex: 2;
+}

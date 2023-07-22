@@ -19,7 +19,12 @@ export function Projects() {
               <ProjectListItem
                 key={i}
                 project={project}
-                clickFunction={() => setProjectIndex(i)}
+                clickFunction={() => {
+                  setProjectIndex(i);
+                  const projects = document.getElementById("Projects");
+                  console.log(projects);
+                  projects?.scrollIntoView();
+                }}
                 selected={projectIndex === i}
               />
             ))}

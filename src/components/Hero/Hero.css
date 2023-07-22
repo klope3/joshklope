@@ -4,6 +4,10 @@
   margin-right: auto;
 }
 
+h4 {
+  text-align: center;
+}
+
 .hero-flex {
   display: flex;
   justify-content: space-between;
@@ -13,6 +17,10 @@
 .hero-headings {
   text-align: right;
   max-width: 320px;
+}
+
+.hero-headings h4 {
+  display: none;
 }
 
 .hero-divider {
@@ -38,4 +46,30 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column-reverse;
+  }
+
+  .hero-divider {
+    display: none;
+  }
+
+  .hero-headings {
+    text-align: center;
+  }
+
+  .portrait {
+    scale: 80%
+  }
+  
+  h4 {
+    display: none;
+  }
+
+  .hero-headings h4 {
+    display: initial;
+  }
 }

@@ -36,3 +36,14 @@
 .projects-scroll {
   flex: 2;
 }
+
+@media screen and (max-width: 768px) {
+  .projects-flex {
+    flex-direction: column-reverse;
+    height: 850px;
+  }
+
+  .projects-scroll {
+    border-top: 1px solid var(--beta-1-transparent);
+  }
+}

@@ -49,3 +49,9 @@ button[type="submit"] {
 button path {
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .contact-top-row {
+    flex-direction: column;
+  }
+}

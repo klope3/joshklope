@@ -5,8 +5,10 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export function Hero() {
   return (
     <section id="Hero" className="hero">
+      <h4>Hi, I'm</h4>
       <div className="hero-flex">
         <div className="hero-headings">
+          <h4>Hi, I'm</h4>
           <h1>JOSH KLOPE</h1>
           <h2>SOFTWARE DEVELOPER</h2>
         </div>

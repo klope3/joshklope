@@ -25,3 +25,14 @@
 .about-icons img {
   width: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .about-flex {
+    flex-direction: column-reverse;
+  }
+
+  .about-copy-container {
+    text-align: center;
+    padding: 15px;
+  }
+}

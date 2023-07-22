@@ -1,0 +1,51 @@
+label {
+  display: block;
+  flex: 1;
+}
+
+.contact-top-row {
+  display: flex;
+  gap: 20px;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+  height: 150px;
+}
+
+input {
+  width: 100%;
+}
+
+textarea,
+input {
+  padding: 10px;
+  background-color: var(--alpha-0);
+  border: 1px solid var(--beta-1-transparent);
+  border-radius: 5px;
+  outline: none;
+  font-size: var(--size-16);
+}
+
+textarea:focus, input:focus {
+  border-color: var(--beta-1);
+}
+
+.message-area {
+  margin-top: 10px;
+}
+
+.submit-row {
+  display: flex;
+  justify-content: end;
+}
+
+button[type="submit"] {
+  display: block;
+  margin-top: 5px;
+}
+
+button path {
+  color: white;
+}

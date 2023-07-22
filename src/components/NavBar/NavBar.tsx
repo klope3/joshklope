@@ -11,6 +11,9 @@ export function NavBar() {
         <li>
           <a href="#Projects">Projects</a>
         </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
       </ul>
     </nav>
   );

@@ -1,6 +1,9 @@
+#Projects {
+  max-width: 900px;
+}
+
 .projects-container {
   background-color: var(--transparent-black);
-  max-width: 900px;
   margin: auto;
   /* overflow: hidden; */
 }

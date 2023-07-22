@@ -21,8 +21,8 @@ export function Projects() {
                 project={project}
                 clickFunction={() => {
                   setProjectIndex(i);
+                  if (window.innerWidth > 768) return;
                   const projects = document.getElementById("Projects");
-                  console.log(projects);
                   projects?.scrollIntoView();
                 }}
                 selected={projectIndex === i}

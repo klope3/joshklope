@@ -24,11 +24,13 @@ export function About() {
           </p>
           <p>
             As a student in the{" "}
-            <a href="https://devslopes.com/">Devslopes Web Academy</a>, I've
-            learned to find joy in the act of writing code, no matter what kind
-            of project I'm working on. It's so satisfying to solve little pieces
-            of a problem, one at a time, and then fit those pieces together to
-            create an elegant, useful solution.
+            <a href="https://devslopes.com/" target="_blank">
+              Devslopes Web Academy
+            </a>
+            , I've learned to find joy in the act of writing code, no matter
+            what kind of project I'm working on. It's so satisfying to solve
+            little pieces of a problem, one at a time, and then fit those pieces
+            together to create an elegant, useful solution.
           </p>
           <p>
             When I'm not pursuing my passion for development, I enjoy hanging

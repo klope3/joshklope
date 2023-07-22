@@ -16,9 +16,9 @@ export function Hero() {
         <div className="portrait"></div>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-        nesciunt dolorum tempore ab voluptatibus, magnam blanditiis modi optio!
-        Nostrum, officiis vitae? Itaque qui porro voluptatum ea ad a sunt velit.
+        I love solving any kind of problem, big or small. I especially enjoy
+        making interactive experiences, discovering new technologies, and making
+        my code a little cleaner and prettier than it was before.
       </p>
       <div className="social-row">
         <a href="https://github.com/klope3" target="_blank" className="fa-2x">

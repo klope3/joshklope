@@ -17,18 +17,24 @@ export function About() {
           <img src="/1280px-Node.js_logo.svg.png" alt="Node" />
         </div>
         <div className="about-copy-container">
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-            error id quae vitae beatae, accusantium quam corporis dolorum, omnis
-            eveniet magnam provident explicabo quo! Doloremque ea corporis
-            facilis adipisci ad.
-          </div>
-          <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            adipisci corrupti obcaecati aperiam cupiditate, neque distinctio sed
-            ab error vero fugit ratione necessitatibus ut iure consectetur alias
-            facere voluptate. Nesciunt?
-          </div>
+          <p>
+            I started my journey with tech as a 90s kid obsessed with video
+            games. Eventually, I started tinkering with my favorite games, and
+            that led me to discover a passion for programming.
+          </p>
+          <p>
+            As a student in the{" "}
+            <a href="https://devslopes.com/">Devslopes Web Academy</a>, I've
+            learned to find joy in the act of writing code, no matter what kind
+            of project I'm working on. It's so satisfying to solve little pieces
+            of a problem, one at a time, and then fit those pieces together to
+            create an elegant, useful solution.
+          </p>
+          <p>
+            When I'm not pursuing my passion for development, I enjoy hanging
+            out with my wife and 4-year-old, taking late-night walks, and
+            playing video games.
+          </p>
         </div>
       </div>
     </section>

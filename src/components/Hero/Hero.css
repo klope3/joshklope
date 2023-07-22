@@ -30,7 +30,7 @@ h4 {
 }
 
 .portrait {
-  background-image: url(joshklope.jpg);
+  background-image: url("/joshklope.jpg");
   width: 260px;
   height: 260px;
   border-radius: 50%;

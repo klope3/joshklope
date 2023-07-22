@@ -1,4 +1,4 @@
-import { ProjectData, techImages } from "../constants";
+import { ProjectData } from "../constants";
 import "./ProjectInfoView.css";
 
 type ProjectInfoViewProps = {
